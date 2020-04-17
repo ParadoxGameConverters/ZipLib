@@ -21,9 +21,6 @@
     <ClCompile Include="bzlib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="compress.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="crctable.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -37,6 +34,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="bzerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bcompress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
