@@ -11,6 +11,10 @@
 #include "../../extlibs/lzma/unix/LzmaEnc.h"
 #endif
 
+#ifdef __APPLE__
+#include "../../extlibs/lzma/unix/LzmaEnc.h"
+#endif
+
 struct lzma_encoder_properties
   : compression_encoder_properties_interface
 {
