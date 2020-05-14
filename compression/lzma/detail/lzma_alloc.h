@@ -8,6 +8,10 @@
 #include "../../../extlibs/lzma/unix/Types.h"
 #endif
 
+#ifdef __APPLE__
+#include "../../../extlibs/lzma/unix/Types.h"
+#endif
+
 namespace detail
 {
   class lzma_alloc

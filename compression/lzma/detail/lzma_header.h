@@ -12,6 +12,10 @@
 #include "../../../extlibs/lzma/unix/LzmaEnc.h"
 #endif
 
+#ifdef __APPLE__
+#include "../../../extlibs/lzma/unix/7zVersion.h"
+#include "../../../extlibs/lzma/unix/LzmaEnc.h"
+#endif
 
 namespace detail
 {
