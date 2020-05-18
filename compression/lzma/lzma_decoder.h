@@ -12,6 +12,10 @@
 #include "../../extlibs/lzma/unix/LzmaDec.h"
 #endif
 
+#ifdef __APPLE__
+#include "../../extlibs/lzma/unix/LzmaDec.h"
+#endif
+
 #include <cstdint>
 
 template <typename ELEM_TYPE, typename TRAITS_TYPE>
