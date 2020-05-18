@@ -8,7 +8,7 @@ add_compile_options("-pthread")
 add_compile_options("-O2")
 
 project(ZIPLIB)
-SET(CMAKE_CXX_COMPILER g++-8)
+SET(CMAKE_CXX_COMPILER g++-9)
 
 file(GLOB CPP_FILES *.cpp)
 file(GLOB DETAIL_FILES detail/*.cpp)
