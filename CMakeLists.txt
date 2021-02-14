@@ -7,7 +7,7 @@ add_compile_options("-pthread")
 add_compile_options("-O2")
 
 project(ZIPLIB)
-SET(CMAKE_CXX_COMPILER g++-9)
+SET(CMAKE_CXX_COMPILER g++-10)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
 file(GLOB CPP_FILES *.cpp)
