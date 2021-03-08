@@ -8,7 +8,7 @@ add_compile_options("-O2")
 
 project(ZIPLIB)
 SET(CMAKE_CXX_COMPILER g++-10)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
 file(GLOB CPP_FILES *.cpp)
 file(GLOB DETAIL_FILES detail/*.cpp)
